@@ -204,6 +204,24 @@
   font-size: 85px;
 }
 
+.project-file-container {
+  max-height: 300px;
+  /* Adjust the value as needed */
+  overflow-y: auto;
+}
+
+.about-section {
+  margin: 20px 0;
+  /* Adjust the margins as needed */
+  padding: 20px 0;
+  /* Adjust the padding as needed */
+}
+
+.page-container {
+  padding-top: 20px;
+  /* Adjust the padding as needed */
+}
+
 @media (max-width: 768px) {
   .section {
     margin-bottom: 40px;
