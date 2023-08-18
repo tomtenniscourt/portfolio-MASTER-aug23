@@ -1,13 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import axios from "axios";
-import { motion } from "framer-motion";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import ContactForm from "./ContactForm";
+
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
-
-return (
+  return (
     <div className="App">
-      <h1>hello tom</h1>
+      <h1>hello world</h1>
     </div>
   );
 }
