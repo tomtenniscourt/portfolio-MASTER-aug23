@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -13,7 +14,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <h1>hello kenny hotz</h1>
     </div>
   );
 }
