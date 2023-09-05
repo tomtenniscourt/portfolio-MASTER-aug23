@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
 .full-page {
   position: relative;
@@ -44,13 +44,13 @@
 
 .home-h1 {
   font-size: 85px;
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
 }
 
 .home-p {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 400;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .about-me-h1 {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
 
 }
@@ -89,8 +89,8 @@
   border-radius: 5px;
   padding: 10px;
   border: 1px solid black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+font-family: 'Dosis', sans-serif;  
+font-weight: 500;
 }
 
 .skills-part,
@@ -184,21 +184,21 @@
 }
 
 .test-h1 {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
   text-align: center;
   font-size: 85px;
 }
 
 .test-h1-skills {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
   text-align: center;
   font-size: 85px;
 }
 
 .test-h1-contact {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
   text-align: center;
   font-size: 85px;
@@ -230,7 +230,7 @@
 }
 
 .h1-content {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Dosis', sans-serif;
   font-weight: 900;
   text-align: center;
   font-size: 85px;
