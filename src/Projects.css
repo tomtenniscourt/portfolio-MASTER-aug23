@@ -154,7 +154,6 @@ font-family: 'Dosis', sans-serif;
     }
 }
 
-/* For Safari only */
 @media not all and (min-resolution: 0.001dpcm) {
 
     /* Disable pinch-to-zoom */
@@ -168,5 +167,11 @@ font-family: 'Dosis', sans-serif;
     body {
         transform: scale(1.0);
         transform-origin: top left;
+    }
+
+    /* Add backface-visibility to prevent blurriness */
+    .container,
+    .item {
+        backface-visibility: hidden;
     }
 }

@@ -425,4 +425,10 @@ font-family: 'Dosis', sans-serif;
     transform: scale(1.0);
     transform-origin: top left;
   }
+
+  /* Add backface-visibility to prevent blurriness */
+  .container,
+  .item {
+    backface-visibility: hidden;
+  }
 }
