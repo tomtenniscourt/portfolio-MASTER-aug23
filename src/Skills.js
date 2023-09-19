@@ -14,6 +14,7 @@ const skills = [
   "Ruby",
   "Ruby on Rails",
   "Bootstrap",
+  "Framer-Motion",
   "MongoDB",
   "PostgreSQL",
 ];
