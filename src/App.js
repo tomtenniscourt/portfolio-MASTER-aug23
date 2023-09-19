@@ -181,7 +181,7 @@ function App() {
         <div className="full-page">
           <div id="section1" className="section">
             <div className="home-content">
-              <h1 className="home-h1">Tom Court: Software Engineer</h1>
+              <h1 className="home-h1">Tom Court xx: Software Engineer</h1>
               <p className="home-p"></p>
               <img
                 className="picture"
