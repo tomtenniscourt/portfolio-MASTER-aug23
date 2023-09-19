@@ -412,24 +412,18 @@ font-family: 'Dosis', sans-serif;
 }
 
 @media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance:none) {
-
-    /* Apply specific styles for Safari */
-    body {
-      /* Adjust font rendering properties for Safari */
+  @media {
+    .container {
+      transform: scale(1);
+      font-size: 16px;
+      /* Adjust as needed */
     }
-  }
-}
 
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance:none) {
-
-    /* Apply specific styles for Safari */
     .item {
-      transform: none;
-      /* Reset scaling */
-      backface-visibility: hidden;
-      /* Improve text rendering */
+      height: auto;
+      /* Adjust as needed */
+      font-size: 14px;
+      /* Adjust as needed */
     }
   }
 }
