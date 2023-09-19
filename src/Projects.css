@@ -54,6 +54,7 @@ font-family: 'Dosis', sans-serif;
     margin-bottom: -7px;
     margin-top: -5px;
 }
+
 .button-tictactoe-go, .button-joke-go, .button-weather-go, .button-paint-go {
     height: 10px;
     font-size: 5px;

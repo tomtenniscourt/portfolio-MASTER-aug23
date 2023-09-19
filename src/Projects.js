@@ -8,7 +8,7 @@ const container = {
   hidden: { opacity: 1, scale: 0 },
   visible: {
     opacity: 1,
-    scale: 4,
+    scale: 3,
     transition: {
       delayChildren: 0.3,
       staggerChildren: 0.2,
@@ -24,7 +24,7 @@ const item = {
   },
   expanded: {
     zIndex: 2,
-    scale: 3,
+    scale: 1,
   },
 };
 
@@ -85,7 +85,7 @@ const Projects = () => {
                 className={`item ${expandedItem === index ? "expanded" : ""}`}
                 variants={item}
                 onClick={() => handleItemClick(index)}
-                whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1 }}
               >
                 {index === 0 && (
                   <div className="content-item-one">
