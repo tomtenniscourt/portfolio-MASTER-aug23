@@ -430,3 +430,13 @@ font-family: 'Dosis', sans-serif;
        margin: 1px;
      }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance:none) {
+
+    /* Apply specific styles for Safari */
+    body {
+      /* Adjust font rendering properties for Safari */
+    }
+  }
+}
