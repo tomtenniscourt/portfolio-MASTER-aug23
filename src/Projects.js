@@ -92,7 +92,7 @@ const Projects = () => {
                     <h2 className="item-h2">Tic Tac Toe</h2>
                     <p className="item-p">
                       A game of tic tac toe using simple JavaScript logic, that
-                      can be played by two users.
+                      can be played by two users
                     </p>
                     <a
                       className="button-go-tictactoe"
@@ -109,7 +109,7 @@ const Projects = () => {
                     <h2 className="item-h2">Dad Jokes</h2>
                     <p className="item-p">
                       Using a 3rd party API, a random 'Dad Joke' is generated on
-                      the screen for the user.
+                      the screen for the user
                     </p>
                     <a
                       className="button-go-joke"
@@ -140,15 +140,14 @@ const Projects = () => {
                 )}
                 {index === 3 && (
                   <div className="content-item-four">
-                    <h2 className="item-h2">Paint</h2>
+                    <h2 className="item-h2">Football Friends</h2>
                     <p className="item-p">
-                      A JavaScript application that enables users to paint on a
-                      blank canvas
+                      A fullstack football-themed social media site that enables fans to connect with other users 
                       <br />
                     </p>
                     <a
                       className="button-go-paint"
-                      href="https://toms-paint-react-app.vercel.app/"
+                      href="https://football-friends.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
