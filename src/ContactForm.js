@@ -68,15 +68,22 @@ const ContactForm = () => {
               <br />
               <br />
               Most of my weekends are planned around whatever sports games will
-              be happening. I actively follow teams in Football, Rugby, Cricket,
-              NFL, MLB, and the NBA.
-              <br />
-              <br /> 
-              Music wise, I have been playing guitar for almost twenty years and have previously played in numerous bands across the South-East. 
-              I love live music, and will go along to see pretty much anything - from ABBA to Anthrax, I love them all!
+              be happening. I follow teams in Football, Rugby, Cricket, NFL,
+              MLB, and the NBA, and will consider watching other sports if right
+              stars align. As well as this, I am an active skier and on occasions are known to bowl a couple of overs during a cricket game - 
+              but please don't expect me to then hit the ball very far. 
               <br />
               <br />
-              Outside of Sports, Music, and Coding, I live in London with my partner and love to spend free time either inside with friends and a cold pint or outdoors looking for the next adventure. 
+              Music wise, I have been playing guitar for almost twenty years and
+              have previously played in numerous bands across the South-East. I absolutely
+              love live music, and will go along to see pretty much anything -
+              from ABBA to Anthrax, I love them all! Got any good recommendations? Please do send them along and I will be sure to 
+              return the favour. 
+              <br />
+              <br />
+              Outside of Sports, Music, and Coding, I live in London with my
+              partner and love to spend free time either inside with friends and
+              a cold pint or outdoors looking for the next adventure.
             </p>
           </motion.div>
         </motion.div>
