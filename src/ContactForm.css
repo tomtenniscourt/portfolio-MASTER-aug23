@@ -36,7 +36,8 @@ font-family: 'Dosis', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
+  padding: 5px;
 }
 
 .contact-item-title {
@@ -45,10 +46,10 @@ font-family: 'Dosis', sans-serif;
 }
 
 .contact-item-text {
-  font-size: 10px;
+  font-size: 5px;
 }
 
-.sm-profile {
+/* .sm-profile {
     width: 15px;
     height: 15px;
     margin: 5px;
@@ -72,7 +73,7 @@ font-family: 'Dosis', sans-serif;
 
 .email-profile:hover {
     transform: scale(1.1);
-}
+} */
 
 .contact-item-text {
     margin: 0;

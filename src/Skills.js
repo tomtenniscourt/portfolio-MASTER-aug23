@@ -97,7 +97,7 @@ const Skills = () => {
                 whileHover={{ scale: 1.02 }}
               >
                 <div className="skill-content-item">
-                  <h2 className="item-h2">Who Am I?</h2>
+                  <h2 className="item-h2">My Experience</h2>
                   <p className="skills-item-p">
                     I have just finished a three month intensive Software
                     Engineering course that taught the fundamentals of HTML5,
@@ -120,7 +120,7 @@ const Skills = () => {
                     <a href="https://www.linkedin.com/in/tom-court/">
                       LinkedIn
                     </a>
-                    , or contact me using the links below.
+                    , or contact me using the links above.
                   </p>
                 </div>
               </motion.li>

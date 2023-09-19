@@ -49,7 +49,6 @@ const ContactForm = () => {
 
   return (
     <>
-
       <div className="contact-form-section">
         <motion.div
           className="contact-container"
@@ -62,88 +61,22 @@ const ContactForm = () => {
             variants={item}
             whileHover={{ scale: 1.2 }}
           >
-            <h2 className="contact-item-title">Get in touch!</h2>
+            <h2 className="contact-item-title">Hello!</h2>
             <p className="contact-item-text">
-              Tom Court
+              Outside of my professional life, I am an avid sports fan and music
+              enthusiast.
               <br />
-              London
               <br />
-              EC1V.
+              Most of my weekends are planned around whatever sports games will
+              be happening. I actively follow teams in Football, Rugby, Cricket,
+              NFL, MLB, and the NBA.
               <br />
-              <motion.a
-                href="https://www.instagram.com/tomtenniscourt/"
-                variants={item}
-              >
-                <motion.img
-                  className="sm-profile"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"
-                  alt="Link to Instagram"
-                  initial={{ scale: 0 }}
-                  animate={{ rotate: 360, scale: 1 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                    delay: 0.3,
-                  }}
-                />
-              </motion.a>
-              <motion.a
-                href="https://www.linkedin.com/in/tom-court/"
-                variants={item}
-              >
-                <motion.img
-                  className="sm-profile"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
-                  alt="Link to LinkedIn"
-                  initial={{ scale: 0 }}
-                  animate={{ rotate: 360, scale: 1 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                    delay: 0.5,
-                  }}
-                />
-              </motion.a>
-              <motion.a
-                href="https://github.com/tomtenniscourt"
-                variants={item}
-              >
-                <motion.img
-                  className="sm-profile"
-                  src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
-                  alt="Link to GitHub"
-                  initial={{ scale: 0 }}
-                  animate={{ rotate: 360, scale: 1 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                    delay: 0.7,
-                  }}
-                />
-              </motion.a>
-              <motion.a
-                href={`mailto:tomcourt94@icloud.com?subject=${encodeURIComponent(
-                  emailSubject
-                )}`}
-                variants={item}
-              >
-                <motion.img
-                  className="email-profile"
-                  src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Mail-512.png"
-                  alt="Email Tom"
-                  initial={{ scale: 0 }}
-                  animate={{ rotate: 360, scale: 1 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                    delay: 0.9,
-                  }}
-                />
-              </motion.a>
+              <br /> 
+              Music wise, I have been playing guitar for almost twenty years and have previously played in numerous bands across the South-East. 
+              I love live music, and will go along to see pretty much anything - from ABBA to Anthrax, I love them all!
+              <br />
+              <br />
+              Outside of Sports, Music, and Coding, I live in London with my partner and love to spend free time either inside with friends and a cold pint or outdoors looking for the next adventure. 
             </p>
           </motion.div>
         </motion.div>
