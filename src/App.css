@@ -414,16 +414,7 @@ font-family: 'Dosis', sans-serif;
 @media not all and (min-resolution: 0.001dpcm) {
   @media {
     .container {
-      transform: scale(1);
-      font-size: 16px;
-      /* Adjust as needed */
-    }
-
-    .item {
-      height: auto;
-      /* Adjust as needed */
-      font-size: 14px;
-      /* Adjust as needed */
+      -webkit-transform: scale(4);
     }
   }
 }
