@@ -156,11 +156,17 @@ font-family: 'Dosis', sans-serif;
 
 /* For Safari only */
 @media not all and (min-resolution: 0.001dpcm) {
-    @media {
 
-        .item-h2,
-        .item-p {
-            -webkit-font-smoothing: subpixel-antialiased;
-        }
+    /* Disable pinch-to-zoom */
+    body {
+        touch-action: manipulation;
+    }
+
+    /* Optionally, you can set a fixed viewport scale */
+    /* This may help maintain clarity at your desired scale */
+    /* Replace 1.0 with your desired scale factor */
+    body {
+        transform: scale(1.0);
+        transform-origin: top left;
     }
 }
