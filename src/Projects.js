@@ -5,10 +5,16 @@ import { Link } from "react-router-dom";
 
 
 const container = {
-  hidden: { opacity: 1, scale: 0 },
+  hidden: { opacity: 1, scale: 4 },
+  // Set the scale to 1 for Safari browser
   visible: {
     opacity: 1,
-    scale: 1,
+    // Check if the user is using Safari
+    scale: /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+      ? window.innerWidth <= 768 // Adjust the screen width as needed
+        ? 2 // Increase the size for mobile Safari
+        : 1 // Use scale 1 for desktop Safari
+      : 4, // Default scale for other browsers
     transition: {
       delayChildren: 0.3,
       staggerChildren: 0.2,
