@@ -440,3 +440,16 @@ font-family: 'Dosis', sans-serif;
     }
   }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance:none) {
+
+    /* Apply specific styles for Safari */
+    .item {
+      transform: none;
+      /* Reset scaling */
+      backface-visibility: hidden;
+      /* Improve text rendering */
+    }
+  }
+}
