@@ -154,10 +154,13 @@ font-family: 'Dosis', sans-serif;
     }
 }
 
+/* For Safari only */
 @media not all and (min-resolution: 0.001dpcm) {
     @media {
-        .container {
-            -webkit-transform: scale(4);
+
+        .item-h2,
+        .item-p {
+            -webkit-font-smoothing: subpixel-antialiased;
         }
     }
 }
