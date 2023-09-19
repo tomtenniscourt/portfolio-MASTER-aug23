@@ -12,8 +12,8 @@ font-family: 'Dosis', sans-serif;
 }
 
 .container {
-    width: 150px;
-    height: 150px;
+    width: 40%;
+    height: 70%;
     display: grid;
     overflow: hidden;
     margin: 0;
@@ -23,12 +23,14 @@ font-family: 'Dosis', sans-serif;
     gap: 10px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.5);
-    border-radius: 10%;
+    border-radius: 30px;
 }
 
 .item {
     background: white;
-    border-radius: 15%;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #projects-section {
@@ -43,13 +45,13 @@ font-family: 'Dosis', sans-serif;
 }
 
 .item-h2 {
-    font-size: 7px;
+    font-size: 15px;
     padding-top: 10px;
 }
 
 .item-p {
-    font-size: 3px;
-    margin: 4px;
+    font-size: 15px;
+    margin: 10px;
     text-align: justify;
     margin-bottom: -7px;
     margin-top: -5px;
@@ -57,7 +59,7 @@ font-family: 'Dosis', sans-serif;
 
 .button-tictactoe-go, .button-joke-go, .button-weather-go, .button-paint-go {
     height: 10px;
-    font-size: 5px;
+    font-size: 15px;
     border: 0.5px;
     }
 
@@ -82,10 +84,11 @@ font-family: 'Dosis', sans-serif;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 2px;
+    font-size: 20px;
     color: white;
     cursor: pointer;
     padding: 2px 6px;
+    margin-top: 20px;
     text-decoration: none;
     transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
