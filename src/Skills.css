@@ -88,4 +88,9 @@
         max-width: 100%;
         /* Full width on smaller screens */
     }
+
+        .skill-box-new {
+            font-size: 15px;
+            padding: 5px 5px;
+        }
 }
