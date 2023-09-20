@@ -6,7 +6,7 @@ const container = {
   hidden: { opacity: 0, scale: 0 },
   visible: {
     opacity: 1,
-    scale: 2.5,
+    scale: 1,
     transition: {
       delayChildren: 0.3,
       staggerChildren: 0.2,
@@ -59,7 +59,7 @@ const ContactForm = () => {
           <motion.div
             className="contact-item"
             variants={item}
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.01 }}
           >
             <h2 className="contact-item-title">Hello!</h2>
             <p className="contact-item-text">
