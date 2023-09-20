@@ -47,10 +47,11 @@ font-family: 'Dosis', sans-serif;
 
 .skill-box-new {
     padding: 2px 2px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
+    background: linear-gradient(to right, darkblue, darkorchid);    
+    border-radius: 10px;
     font-size: 30px;
     margin-top: 7px;
+    color: white;;
 }
 
 .skills-list-new {
