@@ -180,110 +180,116 @@ function App() {
       >
         <div className="full-page">
           <div id="section1" className="section">
-            <div className="home-content">
-              <h1 className="home-h1">Tom Court: Software Engineer</h1>
-              <p className="home-p"></p>
-              <img
-                className="picture"
-                src="https://i.imgur.com/NF2gNgt.png"
-              ></img>
-              <div className="my-contact-items">
-                <motion.a
-                  href="https://www.instagram.com/tomtenniscourt/"
-                  variants={item}
-                >
-                  <motion.img
-                    className="sm-profile"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"
-                    alt="Link to Instagram"
-                    initial={{ scale: 0 }}
-                    animate={{ rotate: 360, scale: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 20,
-                      delay: 0.3,
-                    }}
-                  />
-                </motion.a>
-                <motion.a
-                  href="https://www.linkedin.com/in/tom-court/"
-                  variants={item}
-                >
-                  <motion.img
-                    className="sm-profile"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
-                    alt="Link to LinkedIn"
-                    initial={{ scale: 0 }}
-                    animate={{ rotate: 360, scale: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 20,
-                      delay: 0.5,
-                    }}
-                  />
-                </motion.a>
-                <motion.a
-                  href="https://github.com/tomtenniscourt"
-                  variants={item}
-                >
-                  <motion.img
-                    className="sm-profile"
-                    src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
-                    alt="Link to GitHub"
-                    initial={{ scale: 0 }}
-                    animate={{ rotate: 360, scale: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 20,
-                      delay: 0.7,
-                    }}
-                  />
-                </motion.a>
-                <motion.a
-                  href={`mailto:tomcourt94@icloud.com?subject=${encodeURIComponent(
-                    emailSubject
-                  )}`}
-                  variants={item}
-                >
-                  <motion.img
-                    className="email-profile"
-                    src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Mail-512.png"
-                    alt="Email Tom"
-                    initial={{ scale: 0 }}
-                    animate={{ rotate: 360, scale: 1 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 20,
-                      delay: 0.9,
-                    }}
-                  />
-                </motion.a>
+            <div className="section-content">
+              <div className="home-content">
+                <h1 className="home-h1">Tom Court: Software Engineer</h1>
+                <p className="home-p"></p>
+                <img
+                  className="picture"
+                  src="https://i.imgur.com/NF2gNgt.png"
+                ></img>
+                <div className="my-contact-items">
+                  <motion.a
+                    href="https://www.instagram.com/tomtenniscourt/"
+                    variants={item}
+                  >
+                    <motion.img
+                      className="sm-profile"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"
+                      alt="Link to Instagram"
+                      initial={{ scale: 0 }}
+                      animate={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 260,
+                        damping: 20,
+                        delay: 0.3,
+                      }}
+                    />
+                  </motion.a>
+                  <motion.a
+                    href="https://www.linkedin.com/in/tom-court/"
+                    variants={item}
+                  >
+                    <motion.img
+                      className="sm-profile"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
+                      alt="Link to LinkedIn"
+                      initial={{ scale: 0 }}
+                      animate={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 260,
+                        damping: 20,
+                        delay: 0.5,
+                      }}
+                    />
+                  </motion.a>
+                  <motion.a
+                    href="https://github.com/tomtenniscourt"
+                    variants={item}
+                  >
+                    <motion.img
+                      className="sm-profile"
+                      src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
+                      alt="Link to GitHub"
+                      initial={{ scale: 0 }}
+                      animate={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 260,
+                        damping: 20,
+                        delay: 0.7,
+                      }}
+                    />
+                  </motion.a>
+                  <motion.a
+                    href={`mailto:tomcourt94@icloud.com?subject=${encodeURIComponent(
+                      emailSubject
+                    )}`}
+                    variants={item}
+                  >
+                    <motion.img
+                      className="email-profile"
+                      src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Mail-512.png"
+                      alt="Email Tom"
+                      initial={{ scale: 0 }}
+                      animate={{ rotate: 360, scale: 1 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 260,
+                        damping: 20,
+                        delay: 0.9,
+                      }}
+                    />
+                  </motion.a>
+                </div>
               </div>
             </div>
           </div>
 
           <div id="section3" className="section">
+            <div className="section-content">
             {/* Section 3 content (Projects) */}
             <h1 class="test-h1">PROJECTS</h1>
             <Projects />
-          </div>
+          </div></div>
 
           <div id="section4" className="section">
+            <div className="section-content">
             {/* Section 4 content (Skills) */}
             <h1 class="test-h1-skills">SKILLS AND EXPERIENCE</h1>
 
             <Skills />
-          </div>
+          </div></div>
 
           <div id="section5" className="section">
+            <div className="section-content">
             {/* Section 5 content */}
             <h1 class="test-h1-contact">ABOUT ME</h1>
             <ContactForm />
-          </div>
+          </div></div>
+          
         </div>
       </div>
     </div>

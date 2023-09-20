@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom"; 
-
+import { Link } from "react-router-dom";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -27,19 +26,6 @@ const item = {
     scale: 1,
   },
 };
-
-  const buttonStyle = {
-    color: "#ffffff",
-    backgroundColor: "#007bff", 
-    border: "none",
-    borderRadius: "4px",
-    padding: "8px 16px",
-    textDecoration: "none",
-    fontSize: "1rem",
-    fontWeight: "bold",
-    cursor: "pointer",
-    marginLeft: "20px",
-  };
 
 const Projects = () => {
   const [isSectionVisible, setIsSectionVisible] = useState(false);
@@ -69,8 +55,35 @@ const Projects = () => {
     setExpandedItem((prevItem) => (prevItem === index ? null : index));
   };
 
+  const projectsData = [
+    {
+      title: "Tic Tac Toe",
+      description:
+        "A game of tic tac toe using simple JavaScript logic, that can be played by two users.",
+      link: "https://tomtenniscourt.github.io/tic_tac_toe_200623/",
+    },
+    {
+      title: "Dad Jokes",
+      description:
+        "Using a 3rd party API, a random 'Dad Joke' is generated on the screen for the user.",
+      link: "https://dad-joke-generator-phi.vercel.app/",
+    },
+    {
+      title: "Weather App",
+      description:
+        "An application that uses an API to fetch weather information for any given U.S. zip code.",
+      link: "https://my-project-2-47ihbr2ba-tomtenniscourt.vercel.app/",
+    },
+    {
+      title: "Football Friends",
+      description:
+        "A fullstack football-themed social media site that enables fans to connect with other users.",
+      link: "https://football-friends.vercel.app/",
+    },
+  ];
+
   return (
-    <div class="project-content">
+    <div className="project-content">
       <div id="projects-section">
         {isSectionVisible && (
           <motion.ul
@@ -79,7 +92,7 @@ const Projects = () => {
             initial="hidden"
             animate="visible"
           >
-            {[0, 1, 2, 3].map((index) => (
+            {projectsData.map((project, index) => (
               <motion.li
                 key={index}
                 className={`item ${expandedItem === index ? "expanded" : ""}`}
@@ -87,74 +100,18 @@ const Projects = () => {
                 onClick={() => handleItemClick(index)}
                 whileHover={{ scale: 1 }}
               >
-                {index === 0 && (
-                  <div className="content-item-one">
-                    <h2 className="item-h2">Tic Tac Toe</h2>
-                    <p className="item-p">
-                      A game of tic tac toe using simple JavaScript logic, that
-                      can be played by two users
-                    </p>
-                    <a
-                      className="button-go-tictactoe"
-                      href="https://tomtenniscourt.github.io/tic_tac_toe_200623/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Go to App
-                    </a>
-                  </div>
-                )}
-                {index === 1 && (
-                  <div className="content-item-two">
-                    <h2 className="item-h2">Dad Jokes</h2>
-                    <p className="item-p">
-                      Using a 3rd party API, a random 'Dad Joke' is generated on
-                      the screen for the user
-                    </p>
-                    <a
-                      className="button-go-joke"
-                      href="https://dad-joke-generator-phi.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Go to App
-                    </a>
-                  </div>
-                )}
-                {index === 2 && (
-                  <div className="content-item-three">
-                    <h2 className="item-h2">Weather App</h2>
-                    <p className="item-p">
-                      An application that an API to fetch weather information
-                      for any given U.S. zip code
-                    </p>
-                    <a
-                      className="button-go-weather"
-                      href="https://my-project-2-47ihbr2ba-tomtenniscourt.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Go to App
-                    </a>
-                  </div>
-                )}
-                {index === 3 && (
-                  <div className="content-item-four">
-                    <h2 className="item-h2">Football Friends</h2>
-                    <p className="item-p">
-                      A fullstack football-themed social media site that enables fans to connect with other users 
-                      <br />
-                    </p>
-                    <a
-                      className="button-go-paint"
-                      href="https://football-friends.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Go to App
-                    </a>
-                  </div>
-                )}
+                <div className="content-item">
+                  <h2 className="item-h2">{project.title}</h2>
+                  <p className="item-p">{project.description}</p>
+                  <a
+                    className="button-go"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Go to App
+                  </a>
+                </div>
               </motion.li>
             ))}
           </motion.ul>

@@ -50,7 +50,7 @@ const Skills = () => {
         const viewportHeight = window.innerHeight;
         const visiblePercentage = (viewportHeight - top) / height;
 
-        setIsSectionVisible(visiblePercentage >= 0.55);
+        setIsSectionVisible(visiblePercentage >= 0.45);
       }
     };
 

@@ -33,7 +33,7 @@ const ContactForm = () => {
         const viewportHeight = window.innerHeight;
         const visiblePercentage = (viewportHeight - top) / height;
 
-        setIsSectionVisible(visiblePercentage >= 0.55);
+        setIsSectionVisible(visiblePercentage >= 0.45);
       }
     };
 
@@ -70,15 +70,17 @@ const ContactForm = () => {
               Most of my weekends are planned around whatever sports games will
               be happening. I follow teams in Football, Rugby, Cricket, NFL,
               MLB, and the NBA, and will consider watching other sports if right
-              stars align. As well as this, I am an active skier and on occasions are known to bowl a couple of overs during a cricket game - 
-              but please don't expect me to then hit the ball very far. 
+              stars align. As well as this, I am an active skier and on
+              occasions are known to bowl a couple of overs during a cricket
+              game - but please don't expect me to then hit the ball very far.
               <br />
               <br />
               Music wise, I have been playing guitar for almost twenty years and
-              have previously played in numerous bands across the South-East. I absolutely
-              love live music, and will go along to see pretty much anything -
-              from ABBA to Anthrax, I love them all! Got any good recommendations? Please do send them along and I will be sure to 
-              return the favour. 
+              have previously played in numerous bands across the South-East. I
+              absolutely love live music, and will go along to see pretty much
+              anything - from ABBA to Anthrax, I love them all! Got any good
+              recommendations? Please do send them along and I will be sure to
+              return the favour.
               <br />
               <br />
               Outside of Sports, Music, and Coding, I live in London with my
