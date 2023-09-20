@@ -1,0 +1,28 @@
+/* LandingPage.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ECECEC;
+}
+
+.h1-lp {
+    font-size: 80px;
+}
+
+button {
+    background: linear-gradient(to right, darkblue, darkorchid);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover {
+transform: scale(1.1);
+}

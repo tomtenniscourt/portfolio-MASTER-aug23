@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
+
+
+
 .full-page {
   position: relative;
   overflow: hidden;
@@ -20,6 +23,7 @@
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
+
 }
 
 .test-h1 {
