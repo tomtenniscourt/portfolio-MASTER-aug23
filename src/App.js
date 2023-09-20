@@ -182,12 +182,14 @@ function App() {
           <div id="section1" className="section">
             <div className="section-content">
               <div className="home-content">
-                <h1 className="home-h1">Tom Court: Software Engineer</h1>
+                <h1 className="home-h1">Tom Court</h1>
                 <p className="home-p"></p>
                 <img
                   className="picture"
                   src="https://i.imgur.com/NF2gNgt.png"
                 ></img>
+                <h1 className="home-sub">Software Engineer</h1>
+
                 <div className="my-contact-items">
                   <motion.a
                     href="https://www.instagram.com/tomtenniscourt/"
@@ -270,26 +272,28 @@ function App() {
 
           <div id="section3" className="section">
             <div className="section-content">
-            {/* Section 3 content (Projects) */}
-            <h1 class="test-h1">PROJECTS</h1>
-            <Projects />
-          </div></div>
+              {/* Section 3 content (Projects) */}
+              <h1 class="test-h1">PROJECTS</h1>
+              <Projects />
+            </div>
+          </div>
 
           <div id="section4" className="section">
             <div className="section-content">
-            {/* Section 4 content (Skills) */}
-            <h1 class="test-h1-skills">SKILLS AND EXPERIENCE</h1>
+              {/* Section 4 content (Skills) */}
+              <h1 class="test-h1-skills">SKILLS AND EXPERIENCE</h1>
 
-            <Skills />
-          </div></div>
+              <Skills />
+            </div>
+          </div>
 
           <div id="section5" className="section">
             <div className="section-content">
-            {/* Section 5 content */}
-            <h1 class="test-h1-contact">ABOUT ME</h1>
-            <ContactForm />
-          </div></div>
-          
+              {/* Section 5 content */}
+              <h1 class="test-h1-contact">ABOUT ME</h1>
+              <ContactForm />
+            </div>
+          </div>
         </div>
       </div>
     </div>

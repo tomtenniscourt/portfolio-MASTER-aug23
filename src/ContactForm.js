@@ -33,7 +33,7 @@ const ContactForm = () => {
         const viewportHeight = window.innerHeight;
         const visiblePercentage = (viewportHeight - top) / height;
 
-        setIsSectionVisible(visiblePercentage >= 0.45);
+        setIsSectionVisible(visiblePercentage >= 0.25);
       }
     };
 
@@ -59,7 +59,6 @@ const ContactForm = () => {
           <motion.div
             className="contact-item"
             variants={item}
-            whileHover={{ scale: 1.01 }}
           >
             <h2 className="contact-item-title">Hello!</h2>
             <p className="contact-item-text">

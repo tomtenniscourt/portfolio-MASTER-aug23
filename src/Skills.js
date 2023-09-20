@@ -77,7 +77,6 @@ const Skills = () => {
               <motion.li
                 className={`skill-item`}
                 variants={item}
-                whileHover={{ scale: 1.02 }}
               >
                 <div className="skill-content-item">
                   <h2 className="item-h2">My Skills</h2>
