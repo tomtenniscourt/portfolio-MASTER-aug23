@@ -176,4 +176,12 @@ font-weight: 500;
         .section-content {
           padding: 10px;
 }
+
+    .full-page {
+      background-size: cover;
+      /* Use cover to maintain aspect ratio */
+      background-position: center;
+      /* Center the background image */
+    }
+    
 }
