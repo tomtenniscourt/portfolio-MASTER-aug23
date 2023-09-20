@@ -178,10 +178,7 @@ font-weight: 500;
 }
 
     .full-page {
-      background-size: contain;
-      /* Set a fixed height and auto width */
-      background-position: center;
-      /* Center the background image */
+      background: #ECECEC;
     }
 
 }
