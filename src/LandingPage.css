@@ -11,7 +11,7 @@
     font-size: 80px;
 }
 
-button {
+.enter-button {
     background: linear-gradient(to right, darkblue, darkorchid);
     color: white;
     border: none;
@@ -20,11 +20,16 @@ button {
     transition: background-color 0.3s ease;
     border-radius: 10px;
     margin: 10px;
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
 }
 
-button:hover {
-transform: scale(1.1);
+.enter-button:hover {
+    transform: scale(1.1);
 }
+
+
 
 @media (max-width: 768px) {
     .h1-lp {
@@ -32,7 +37,7 @@ transform: scale(1.1);
         margin-top: -20vh;
     }
 
-    button {
+    .enter-button {
         margin-top: 5vh;
     }
 }

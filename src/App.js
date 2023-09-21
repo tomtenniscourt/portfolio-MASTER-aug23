@@ -8,7 +8,7 @@ import "./App.css";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
-import LandingPage from "./LandingPage"; // Import the LandingPage component
+import LandingPage from "./LandingPage"; 
 
 import { motion, useScroll, useSpring } from "framer-motion";
 
