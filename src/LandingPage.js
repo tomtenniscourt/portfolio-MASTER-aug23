@@ -4,7 +4,8 @@ import "./LandingPage.css";
 
 function LandingPage({ onEnterClick }) {
   const [showContent, setShowContent] = useState(false);
-  const [showButton, setShowButton] = useState(false); 
+  const [showButton, setShowButton] = useState(false);
+  const [hideLandingPage, setHideLandingPage] = useState(false);
 
   useEffect(() => {
     const delay = setTimeout(() => {
@@ -26,11 +27,16 @@ function LandingPage({ onEnterClick }) {
 
   const handleEnterClick = () => {
     setShowContent(true);
-    onEnterClick();
+    setHideLandingPage(true);
+
+    // Wait for the fade-out animation to complete before revealing the rest of the content
+    setTimeout(() => {
+      onEnterClick();
+    }, 1100);
   };
 
   return (
-    <div className="landing-page">
+    <div className={`landing-page ${hideLandingPage ? "fade-out" : ""}`}>
       <h1
         className={`h1-lp ${showContent ? "fade-in" : ""}`}
         style={{
@@ -41,7 +47,7 @@ function LandingPage({ onEnterClick }) {
         Hello
       </h1>
       <Button
-        className={`enter-button ${showButton ? "fade-in" : ""}`} 
+        className={`enter-button ${showButton ? "fade-in" : ""}`}
         onClick={handleEnterClick}
         style={{
           transition: "opacity 1.1s",

@@ -7,6 +7,11 @@
     background: #ECECEC;
 }
 
+.fade-out {
+    opacity: 0;
+    transition: opacity 1.1s;
+}
+
 .h1-lp {
     font-size: 80px;
 }
