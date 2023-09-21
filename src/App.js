@@ -316,7 +316,7 @@ function App() {
               <div id="section3" className="section">
                 <div className="section-content">
                   {/* Section 3 content (Projects) */}
-                  <h1 class="test-h1">PROJECTS</h1>
+                  <h1 className="test-h1">PROJECTS</h1>
                   <Projects />
                 </div>
               </div>
@@ -324,7 +324,7 @@ function App() {
               <div id="section4" className="section">
                 <div className="section-content">
                   {/* Section 4 content (Skills) */}
-                  <h1 class="test-h1-skills">SKILLS AND EXPERIENCE</h1>
+                  <h1 className="test-h1-skills">SKILLS AND EXPERIENCE</h1>
                   <Skills />
                 </div>
               </div>
@@ -332,7 +332,7 @@ function App() {
               <div id="section5" className="section">
                 <div className="section-content">
                   {/* Section 5 content */}
-                  <h1 class="test-h1-contact">ABOUT ME</h1>
+                  <h1 className="test-h1-contact">ABOUT ME</h1>
                   <ContactForm />
                 </div>
               </div>
