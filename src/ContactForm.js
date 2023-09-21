@@ -68,7 +68,7 @@ const ContactForm = () => {
               <br />
               Most of my weekends are planned around whatever sports games will
               be happening. I follow teams in Football, Rugby, Cricket, NFL,
-              MLB, and the NBA, and will consider watching other sports if right
+              MLB, and the NBA, and will consider watching other sports if the right
               stars align. As well as this, I am an active skier and on
               occasions are known to bowl a couple of overs during a cricket
               game - but please don't expect me to then hit the ball very far.

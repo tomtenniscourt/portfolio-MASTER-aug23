@@ -1,6 +1,5 @@
-// LandingPage.js
 import React, { useState } from "react";
-import "./LandingPage.css"; // Import the CSS file for the landing page
+import "./LandingPage.css";
 
 function LandingPage({ onEnterClick }) {
   const [showContent, setShowContent] = useState(false);
