@@ -202,13 +202,36 @@ function App() {
               <div id="section1" className="section">
                 <div className="section-content">
                   <div className="home-content">
-                    <h1 className="home-h1">Tom Court</h1>
-                    <p className="home-p"></p>
-                    <img
+                    <motion.h1
+                      className="home-h1"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1.1 }}
+                    >
+                      Tom Court
+                    </motion.h1>
+                    <motion.p
+                      className="home-p"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1.1, delay: 0.3 }}
+                    ></motion.p>
+                    <motion.img
                       className="picture"
                       src="https://i.imgur.com/NF2gNgt.png"
-                    ></img>
-                    <h1 className="home-sub">Software Engineer</h1>
+                      alt="Tom Court"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1.1, delay: 0.5 }}
+                    />
+                    <motion.h1
+                      className="home-sub"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1.1, delay: 0.7 }}
+                    >
+                      Software Engineer
+                    </motion.h1>
 
                     <div className="my-contact-items">
                       <motion.a
@@ -225,7 +248,7 @@ function App() {
                             type: "spring",
                             stiffness: 260,
                             damping: 20,
-                            delay: 0.3,
+                            delay: 0.9,
                           }}
                         />
                       </motion.a>
@@ -243,7 +266,7 @@ function App() {
                             type: "spring",
                             stiffness: 260,
                             damping: 20,
-                            delay: 0.5,
+                            delay: 1.1,
                           }}
                         />
                       </motion.a>
@@ -261,7 +284,7 @@ function App() {
                             type: "spring",
                             stiffness: 260,
                             damping: 20,
-                            delay: 0.7,
+                            delay: 1.3,
                           }}
                         />
                       </motion.a>
@@ -281,7 +304,7 @@ function App() {
                             type: "spring",
                             stiffness: 260,
                             damping: 20,
-                            delay: 0.9,
+                            delay: 1.5,
                           }}
                         />
                       </motion.a>
