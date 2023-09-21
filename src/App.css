@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
-
-
-
 .full-page {
   position: relative;
   overflow: hidden;
   font-family: 'Dosis', sans-serif, Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
+  background: #ECECEC;
 }
 
 .section {
@@ -177,12 +175,19 @@ font-weight: 500;
     max-width: 80%;
   }
 
-        .section-content {
-          padding: 10px;
+  .section-content {
+    padding: 10px;
 }
 
-    .full-page {
-      background: #ECECEC;
-    }
+  .full-page {
+    background: #ECECEC;
+}
 
+  .sm-profile {
+    margin-top: 1px;
+        }
+    
+  .email-profile {
+    margin-top: 1px;
+        }
 }
