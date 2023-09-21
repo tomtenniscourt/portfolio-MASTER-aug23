@@ -102,8 +102,7 @@ const Skills = () => {
                     Engineering course that taught the fundamentals of HTML5,
                     CSS, and JavaScript, in order to prepare myself for a career
                     in Software Engineering and Development. A collection of
-                    some applications I have built can be seen below in the
-                    projects section.
+                    some applications I have built can be seen above.
                     <br />
                     <br />
                     I am actively seeking job opportunities where I can make
