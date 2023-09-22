@@ -158,6 +158,9 @@ font-weight: 500;
   transform: scale(1.1);
 }
 
+h2 {
+  color: black;
+}
 @media (max-width: 768px) {
   .home-content {
     margin-left: 5%;
@@ -200,7 +203,7 @@ font-weight: 500;
 }
 
 h2 {
-  color: #fff;
+  color: black;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 200;
   font-size: 16px;
