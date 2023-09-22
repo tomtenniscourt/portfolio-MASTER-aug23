@@ -190,13 +190,13 @@ function App() {
           </Navbar> */}
 
           <div
-            // style={{
-            //   backgroundImage: 'url("https://i.imgur.com/09mIBEt.jpeg")',
-            //   backgroundSize: "cover",
-            //   backgroundPosition: "center",
-            //   backgroundAttachment: "fixed",
-            //   paddingTop: navBarHeight + "px",
-            // }}
+          // style={{
+          //   backgroundImage: 'url("https://i.imgur.com/09mIBEt.jpeg")',
+          //   backgroundSize: "cover",
+          //   backgroundPosition: "center",
+          //   backgroundAttachment: "fixed",
+          //   paddingTop: navBarHeight + "px",
+          // }}
           >
             <div className="full-page">
               <div id="section1" className="section">
@@ -310,6 +310,11 @@ function App() {
                       </motion.a>
                     </div>
                   </div>
+                </div>
+                <div id="scroll-down-animation">
+                  <span class="mouse">
+                    <span class="move"></span>
+                  </span>
                 </div>
               </div>
 
