@@ -75,7 +75,7 @@ function App() {
         <>
           <motion.div className="progress-bar" style={{ scaleX }} />
 
-          <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+          {/* <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
             <Navbar.Brand
               href="#home"
               style={{
@@ -187,7 +187,7 @@ function App() {
                 </Link>
               </Nav>
             </Navbar.Collapse>
-          </Navbar>
+          </Navbar> */}
 
           <div
             // style={{
