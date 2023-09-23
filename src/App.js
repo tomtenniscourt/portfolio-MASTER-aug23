@@ -312,9 +312,15 @@ function App() {
                   </div>
                 </div>
                 <div id="scroll-down-animation">
-                  <span class="mouse">
-                    <span class="move"></span>
-                  </span>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.1, delay: 2 }} 
+                  >
+                    <span class="mouse">
+                      <span class="move"></span>
+                    </span>
+                  </motion.div>
                 </div>
               </div>
 
