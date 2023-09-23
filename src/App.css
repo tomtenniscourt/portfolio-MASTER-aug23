@@ -11,13 +11,11 @@
 .section {
   width: 100%;
     min-height: 100vh;
-      /* Minimum height of 100% of the viewport height */
   position: relative;
 }
 
 .section-content {
   max-width: 1200px;
-  /* Adjust as needed */
   margin: 0 auto;
   padding: 20.1px;
   overflow: hidden;
@@ -87,6 +85,7 @@ font-family: 'Dosis', sans-serif;
       font-family: 'Dosis', sans-serif;
       font-weight: 500;
 }
+
 .home-p {
   font-size: 30px;
 font-family: 'Dosis', sans-serif;
@@ -161,12 +160,73 @@ font-weight: 500;
 h2 {
   color: black;
 }
+
+.mouse {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50px;
+  border: 2px solid black;
+  height: 100px;
+  width: 50px;
+  position: relative;
+}
+
+.move {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: move 2s linear infinite;
+}
+
 @media (max-width: 768px) {
   .home-content {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
+
+    .home-h1 {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 900;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 20%;
+    }
+
+    .home-sub {
+      font-size: 35px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+        .sm-profile, .email-profile {
+          margin-bottom: 20%;
+        }
+
+    .mouse {
+      margin: 0 auto;
+      display: block;
+      border-radius: 50px;
+      border: 2px solid black;
+      height: 100px;
+      width: 50px;
+      position: relative;
+    }
+
+.move {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-25%);
+  animation: move 1s linear infinite;
+}
 
   .test-h1,
   .test-h1-skills,
@@ -195,40 +255,13 @@ h2 {
         }
 }
 
-#scroll-down-animation {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 h2 {
   color: black;
-  font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 200;
   font-size: 16px;
 }
 
-.mouse {
-  margin: 0 auto;
-  display: block;
-  border-radius: 50px;
-  border: 2px solid black;
-  height: 100px;
-  width: 50px;
-  position: relative;
-}
 
-.move {
-  position: absolute;
-  background-color: black;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: move 2s linear infinite;
-}
 
 @keyframes move {
   0% {
