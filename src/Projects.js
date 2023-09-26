@@ -55,32 +55,37 @@ const Projects = () => {
     setExpandedItem((prevItem) => (prevItem === index ? null : index));
   };
 
-  const projectsData = [
-    {
-      title: "Tic Tac Toe",
-      description:
-        "A game of tic tac toe using simple JavaScript logic, that can be played by two users.",
-      link: "https://tomtenniscourt.github.io/tic_tac_toe_200623/",
-    },
-    {
-      title: "Dad Jokes",
-      description:
-        "Using a 3rd party API, a random 'Dad Joke' is generated on the screen for the user.",
-      link: "https://dad-joke-generator-phi.vercel.app/",
-    },
-    {
-      title: "Weather App",
-      description:
-        "An application that uses an API to fetch weather information for any given U.S. zip code.",
-      link: "https://my-project-2-47ihbr2ba-tomtenniscourt.vercel.app/",
-    },
-    {
-      title: "Football Friends",
-      description:
-        "A fullstack football-themed social media site that enables fans to connect with other users.",
-      link: "https://football-friends.vercel.app/",
-    },
-  ];
+const projectsData = [
+  {
+    title: "Tic Tac Toe",
+    description:
+      "A game of tic tac toe using simple JavaScript logic, that can be played by two users.",
+    link: "https://tomtenniscourt.github.io/tic_tac_toe_200623/",
+    githubLink: "https://github.com/tomtenniscourt/tic_tac_toe_200623",
+  },
+  {
+    title: "Dad Jokes",
+    description:
+      "Using a 3rd party API, a random 'Dad Joke' is generated on the screen for the user.",
+    link: "https://dad-joke-generator-phi.vercel.app/",
+    githubLink: "https://github.com/tomtenniscourt/Dad-Joke-Generator",
+  },
+  {
+    title: "Weather App",
+    description:
+      "An application that uses an API to fetch weather information for any given U.S. zip code.",
+    link: "https://my-project-2-47ihbr2ba-tomtenniscourt.vercel.app/",
+    githubLink: "https://github.com/tomtenniscourt/weather-forecast",
+  },
+  {
+    title: "Football Friends",
+    description:
+      "A fullstack football-themed social media site that enables fans to connect with other users.",
+    link: "https://football-friends.vercel.app/",
+    githubLink:
+      "https://github.com/tomtenniscourt/Football-Friends#browser-wire-frame",
+  },
+];
 
   return (
     <div className="project-content">
@@ -110,6 +115,14 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     Go to App
+                  </a>
+                  <a
+                    className="button-go read-me-button" 
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read Me
                   </a>
                 </div>
               </motion.li>

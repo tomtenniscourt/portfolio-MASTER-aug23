@@ -320,8 +320,8 @@ function App() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.1, delay: 2 }}
                   >
-                    <span class="mouse">
-                      <span class="move"></span>
+                    <span className="mouse">
+                      <span className="move"></span>
                     </span>
                   </motion.div>
                 </div>
