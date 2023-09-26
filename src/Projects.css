@@ -71,6 +71,8 @@
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .button-go,
