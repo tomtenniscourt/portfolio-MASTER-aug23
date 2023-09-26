@@ -8,7 +8,7 @@ import "./App.css";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
-import LandingPage from "./LandingPage"; 
+import LandingPage from "./LandingPage";
 
 import { motion, useScroll, useSpring } from "framer-motion";
 
@@ -237,6 +237,7 @@ function App() {
                       <motion.a
                         href="https://www.instagram.com/tomtenniscourt/"
                         variants={item}
+                        target="_blank"
                       >
                         <motion.img
                           className="sm-profile"
@@ -255,6 +256,7 @@ function App() {
                       <motion.a
                         href="https://www.linkedin.com/in/tom-court/"
                         variants={item}
+                        target="_blank"
                       >
                         <motion.img
                           className="sm-profile"
@@ -273,6 +275,7 @@ function App() {
                       <motion.a
                         href="https://github.com/tomtenniscourt"
                         variants={item}
+                        target="_blank"
                       >
                         <motion.img
                           className="sm-profile"
@@ -315,7 +318,7 @@ function App() {
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1.1, delay: 2 }} 
+                    transition={{ duration: 1.1, delay: 2 }}
                   >
                     <span class="mouse">
                       <span class="move"></span>
