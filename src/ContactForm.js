@@ -45,8 +45,6 @@ const ContactForm = () => {
     };
   }, []);
 
-  const emailSubject = "Inquiry from Website";
-
   return (
     <>
       <div className="contact-form-section">

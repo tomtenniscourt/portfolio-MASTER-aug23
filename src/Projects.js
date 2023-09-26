@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },

@@ -3,13 +3,11 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  /* Adjust as needed */
   padding: 20px;
 }
 
 .contact-container {
   width: 80%;
-  /* Adjust the width as needed for your design */
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -19,12 +17,10 @@
   text-align: center;
   margin: 0 auto;
     margin-bottom: 5%;
-      /* Add margin to create a gap at the bottom */
 }
 
 .contact-item {
   width: 100%;
-  /* Full width on small screens */
   background: white;
   border-radius: 30px;
   padding: 20px;
@@ -47,6 +43,5 @@
 @media (min-width: 768px) {
   .contact-container {
     width: 50%;
-    /* Adjust as needed */
   }
 }

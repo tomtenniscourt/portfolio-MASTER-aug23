@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Skills.css";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll"; // Import Link from react-scroll
-
 
 const skills = [
   "HTML5",
