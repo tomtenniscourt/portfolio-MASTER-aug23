@@ -17,6 +17,18 @@ const skills = [
   "Framer-Motion",
   "MongoDB",
   "PostgreSQL",
+  "Passport",
+  "Full Stack Intergration",
+  "Git Hub",
+];
+
+const softSkills = [
+  "Communication",
+  "Problem Solving",
+  "Project and Time Management",
+  "Business Awareness",
+  "Fast Learner",
+  "Makes a great cup of tea",
 ];
 
 const container = {
@@ -64,7 +76,6 @@ const Skills = () => {
 
   return (
     <div className="skills-wrapper">
-
       <div className="skill-content">
         <div id="skills-section">
           {isSectionVisible && (
@@ -74,14 +85,20 @@ const Skills = () => {
               initial="hidden"
               animate="visible"
             >
-              <motion.li
-                className={`skill-item`}
-                variants={item}
-              >
+              <motion.li className={`skill-item`} variants={item}>
                 <div className="skill-content-item">
                   <h2 className="item-h2">My Skills</h2>
                   <div className="skills-list-new">
                     {skills.map((skill, index) => (
+                      <div className="skill-box-new" key={index}>
+                        {skill}
+                        <br />
+                      </div>
+                    ))}
+                  </div>
+                  <h2 className="item-h2-soft">Soft Skills</h2>
+                  <div className="skills-list-new">
+                    {softSkills.map((skill, index) => (
                       <div className="skill-box-new" key={index}>
                         {skill}
                         <br />
@@ -95,7 +112,6 @@ const Skills = () => {
                 variants={item}
                 whileHover={{ scale: 1.02 }}
               >
-                <div className="skill-content-item">
                   <h2 className="item-h2">My Experience</h2>
                   <p className="skills-item-p">
                     I have just finished a three month intensive Software
@@ -120,7 +136,6 @@ const Skills = () => {
                     </a>
                     , or contact me using the links above.
                   </p>
-                </div>
               </motion.li>
             </motion.ul>
           )}

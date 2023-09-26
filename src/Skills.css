@@ -7,7 +7,7 @@
 }
 
 .skills-container {
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     /* Items side by side */
@@ -31,25 +31,24 @@
     border-radius: 30px;
     text-align: center;
     margin-bottom: 15px;
-    /* Reduce margin at the bottom */
     margin-top: 15px;
-    /* Reduce margin at the top */
     flex: 1;
-    /* Equal width for both items */
     max-width: calc(50% - 7.5px);
-    /* Half of the container width with gap */
     padding: 20px;
-    /* Add vertical padding */
 }
 
 .skills-item-p {
-    font-size: 13px;
+    font-size: 17px;
     text-align: justify;
     padding: 10px;
 }
 
-.item-h2 {
+.item-h2, .item-h2-soft {
     font-size: 30px;
+}
+
+.item-h2-soft {
+    padding-top: 20px;
 }
 
 .h1-skills-content {
@@ -61,10 +60,10 @@
 }
 
 .skill-box-new {
-    padding: 2px 2px;
+    padding: 5px 5px;
     background: linear-gradient(to right, darkblue, darkorchid);
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 7px;
     color: white;
     /* Remove bullet points */
@@ -81,12 +80,10 @@
 @media (max-width: 768px) {
     .skills-container {
         flex-direction: column;
-        /* Stack items vertically on smaller screens */
     }
 
     .skill-item {
         max-width: 100%;
-        /* Full width on smaller screens */
     }
 
         .skill-box-new {
