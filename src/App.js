@@ -172,7 +172,7 @@ function App() {
 
               <div id="section3" className="section">
                 <div className="section-content">
-                  <h1 className="test-h1">PROJECTSsss</h1>
+                  <h1 className="test-h1">PROJECTS</h1>
                   <Projects />
                 </div>
               </div>
