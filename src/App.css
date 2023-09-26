@@ -155,7 +155,7 @@ h2 {
   border-radius: 50%;
   left: 50%;
   transform: translateX(-50%);
-  animation: move 2s linear infinite;
+  animation: move 1.5s linear infinite;
 }
 
 @media (max-width: 768px) {
@@ -242,17 +242,17 @@ h2 {
 
 @keyframes move {
   0% {
-    transform: translate(-50%, 10px);
+    transform: translate(-50%, 50px);
     opacity: 0;
   }
 
   50% {
-    transform: translate(-50%, 40px);
+    transform: translate(-50%, 25px);
     opacity: 1;
   }
 
   100% {
-    transform: translate(-50%, 80px);
+    transform: translate(-50%, 1px);
     opacity: 0;
   }
 }
