@@ -29,7 +29,6 @@ function LandingPage({ onEnterClick }) {
     setShowContent(true);
     setHideLandingPage(true);
 
-    // Wait for the fade-out animation to complete before revealing the rest of the content
     setTimeout(() => {
       onEnterClick();
     }, 1100);
