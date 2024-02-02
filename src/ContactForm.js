@@ -80,9 +80,9 @@ const ContactForm = () => {
               return the favour.
               <br />
               <br />
-              Outside of Sports, Music, and Coding, I live in London with my
+              Outside of sports, music, and coding, I live in London with my
               partner and love to spend free time either inside with friends and
-              a cold pint or outdoors looking for the next adventure.
+              a cold pint, or outdoors looking for the next adventure.
             </p>
           </motion.div>
         </motion.div>

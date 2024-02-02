@@ -112,11 +112,10 @@ const Skills = () => {
               >
                   <h2 className="item-h2">My Experience</h2>
                   <p className="skills-item-p">
-                    I have just finished a three month intensive Software
-                    Engineering course that taught the fundamentals of HTML5,
-                    CSS, and JavaScript, in order to prepare myself for a career
-                    in Software Engineering and Development. A collection of
-                    some applications I have built can be seen above.
+                    In 2023 I graduated from General Assembly, where I learnt the fundamentals of HTML5,
+                    CSS, JavaScript, and Ruby along with associated programmes and packages. Currently I am 
+                    teaching myself to code in Java. A collection of some applications I have built can be 
+                    seen in the section above.
                     <br />
                     <br />
                     I am actively seeking job opportunities where I can make
